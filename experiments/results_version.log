@@ -1,0 +1,17 @@
+logical version sizes (MB): [129.3, 142.2, 142.2, 140.8, 140.8, 140.8, 153.7, 153.7, 153.7, 152.2, 165.1, 165.1, 165.1]
+Full copy                      total=  1944.6MB files=    13 commit_total=   1.2s read_v0=0.06s read_last=0.04s lookup_v0=30ms verified=13/13
+   commit_s: [0.08, 0.09, 0.09, 0.08, 0.08, 0.08, 0.09, 0.09, 0.09, 0.09, 0.1, 0.09, 0.1]
+File-level CAS                 total=   253.9MB files= 76564 commit_total=   9.1s read_v0=2.01s read_last=1.20s lookup_v0=7ms verified=13/13
+   commit_s: [3.58, 0.44, 0.03, 0.01, 0.08, 1.2, 0.48, 0.03, 0.03, 0.01, 0.39, 1.37, 1.43]
+Chunk CAS (fixed 64KB)         total=  1294.1MB files= 19733 commit_total=   5.6s read_v0=0.35s read_last=0.41s lookup_v0=91ms verified=13/13
+   commit_s: [0.4, 0.33, 0.29, 0.44, 0.47, 0.47, 0.34, 0.51, 0.32, 0.51, 0.39, 0.56, 0.55]
+Chunk CAS (CDC)                total=   665.2MB files=  7550 commit_total=  54.7s read_v0=0.30s read_last=0.09s lookup_v0=75ms verified=13/13
+   commit_s: [3.9, 4.11, 3.96, 4.03, 3.78, 3.92, 4.21, 4.38, 4.28, 4.34, 4.6, 4.61, 4.6]
+Chunk CAS (CDC, Parquet CDC)   total=   501.9MB files=  5616 commit_total=  55.7s read_v0=0.27s read_last=0.09s lookup_v0=70ms verified=13/13
+   commit_s: [3.88, 4.14, 4.02, 4.22, 4.08, 3.93, 4.26, 4.36, 4.36, 4.37, 4.75, 4.68, 4.61]
+Delta Lake                     total=  1513.8MB files=    36 commit_total=   2.2s read_v0=0.05s read_last=0.05s lookup_v0=43ms verified=13/13
+   commit_s: [0.11, 0.02, 0.19, 0.32, 0.17, 0.17, 0.02, 0.22, 0.21, 0.36, 0.02, 0.29, 0.15]
+Lance                          total=   235.3MB files=    85 commit_total=   0.3s read_v0=0.05s read_last=0.04s lookup_v0=3ms verified=13/13
+   commit_s: [0.05, 0.01, 0.02, 0.0, 0.03, 0.05, 0.01, 0.02, 0.02, 0.01, 0.01, 0.06, 0.01]
+Delta + blob CAS               total=   400.1MB files= 13144 commit_total=   2.1s read_v0=0.24s read_last=0.29s lookup_v0=22ms verified=13/13
+   commit_s: [0.84, 0.11, 0.08, 0.1, 0.1, 0.08, 0.11, 0.09, 0.08, 0.1, 0.1, 0.1, 0.2]
