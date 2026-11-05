@@ -1,5 +1,8 @@
 # Blobs, Columns, and Versions — MMStore-Bench
 
+**Affiliation:** Dr. Rana Alotaibi, CortexOne Lab, King Abdulaziz City for Science and Technology (KACST), Riyadh, Saudi Arabia.
+
+
 **Blobs, Columns, and Versions: Benchmarking Storage Layouts and Time-Travel**
 
 Multimodal AI datasets combine large binary objects (images), dense embeddings, free text and small metadata, and they change all the time through relabeling, re-embedding, deduplication and deletion requests. **MMStore-Bench** is an open, reproducible benchmark that answers two questions on the same corpus:
